@@ -38,7 +38,7 @@ gem "sqlite3", "~> 1.4"
 # Require all files in a folder
 gem "require_all", "~> 3.0"
 
-
+gem 'faker'
 # # Require all files in a folder
 # gem "shotgun"
 
@@ -63,6 +63,7 @@ end
 group :production do
   gem 'pg', '~> 1.4', '>= 1.4.3'
 end
+
 
 
 
